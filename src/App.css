@@ -1,0 +1,10 @@
+/* Empty App.css since we use index.css for global styles and module/styled components for the rest if needed */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+}

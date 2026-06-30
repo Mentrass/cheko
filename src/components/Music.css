@@ -1,0 +1,70 @@
+.music-section {
+  position: relative;
+  background: linear-gradient(135deg, rgba(13,13,15,1) 0%, rgba(20,20,25,1) 100%);
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+
+.music-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .music-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.music-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.music-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.music-header h3 {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.music-icon.spotify {
+  color: #1DB954;
+}
+
+.music-icon.reverb {
+  color: var(--accent-red);
+}
+
+.player-container {
+  border-radius: 12px;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+.reverb-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.reverb-image {
+  border-radius: 8px;
+  max-width: 80%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+}
+
+.reverb-desc {
+  text-align: center;
+  color: var(--text-secondary);
+}
