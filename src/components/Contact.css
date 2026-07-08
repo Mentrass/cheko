@@ -67,6 +67,11 @@
   border-color: #1877F2;
 }
 
+.contact-method:hover .icon-box.instagram {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  border-color: #d6249f;
+}
+
 .form-group {
   margin-bottom: 1.5rem;
 }
